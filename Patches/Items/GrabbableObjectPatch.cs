@@ -11,7 +11,7 @@ namespace DeathShovel.Patches.Items
     [HarmonyPatch(typeof(GrabbableObject), "Start")]
     internal class GrabbableObjectPatch
     {
-        // Patch start so that we can set shovelHitForce to 3 (instakill on killable entities)
+        // Patch start so that we can set shovelHitForce to 3
         public static void Prefix(GrabbableObject __instance)
         {
             // Only run if the instance is a shovel
