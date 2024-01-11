@@ -18,7 +18,7 @@ namespace DeathShovel.Patches.Items
             if (__instance.GetType() == typeof(Shovel))
             {
                 Shovel shovel = __instance as Shovel;
-                shovel.shovelHitForce = 3;
+                shovel.shovelHitForce = Plugin.config.Value;
             }
         }
     }

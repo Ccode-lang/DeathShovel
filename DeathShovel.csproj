@@ -43,6 +43,9 @@
     <Reference Include="BepInEx">
       <HintPath>..\..\..\AppData\Roaming\Thunderstore Mod Manager\DataFolder\LethalCompany\profiles\Default\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
+    <Reference Include="LethalConfig">
+      <HintPath>..\..\..\AppData\Roaming\Thunderstore Mod Manager\DataFolder\LethalCompany\profiles\Default\BepInEx\plugins\AinaVT-LethalConfig\LethalConfig\LethalConfig.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
